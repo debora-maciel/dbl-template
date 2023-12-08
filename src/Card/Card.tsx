@@ -1,8 +1,8 @@
-import React, { ComponentProps } from 'react';
+import React, { ComponentProps, ReactNode } from 'react';
 import { Button } from '../Buttons';
 
 interface CardProp extends ComponentProps<"div"> {
-    children?: any;
+    children?: ReactNode;
     theme?: 'dark' | 'light';
 }
 

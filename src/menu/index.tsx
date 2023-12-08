@@ -16,7 +16,7 @@ export default function SideMenu() {
           <hr className="mt-4 mb-2 text-secondary" />
         ) : (
           <div
-            className={`${
+            className={`cursor-pointer ${
               item.type === "item"
                 ? "text-secondary text-sm"
                 : item.type === "title"
